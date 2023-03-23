@@ -1,0 +1,12 @@
+? - - &root
+  - id3a
+    - &id2a
+      - &id1a [lol]
+      - &id1b [lol]
+    - &id2b
+      - *id1a
+      - *id1b
+  - id3b
+    - *id2a
+    - *id2b
+: value
