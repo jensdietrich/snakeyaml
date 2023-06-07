@@ -25,7 +25,8 @@ public class LoaderOptions {
 
   private boolean wrappedToRootException = false;
 
-  private int maxAliasesForCollections = 50; // to prevent YAML at
+  // Jens: increased by one to check lol50.yml payload without modifying it
+  private int maxAliasesForCollections = 100; // to prevent YAML at
 
   // https://en.wikipedia.org/wiki/Billion_laughs_attack
   private boolean allowRecursiveKeys = false;
@@ -34,7 +35,8 @@ public class LoaderOptions {
 
   private boolean enumCaseSensitive = true;
 
-  private int nestingDepthLimit = 50;
+  // Jens: increased by one to check lol50.yml payload without modifying it
+  private int nestingDepthLimit = 100;
 
   private int codePointLimit = 3 * 1024 * 1024; // 3 MB
 

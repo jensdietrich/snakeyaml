@@ -1,0 +1,9 @@
+?- &t2a
+- &t3a [lol]
+- &t3b [lol]
+- &t2b
+- *t3a
+- *t3b
+: value
+--
+{<<{<<{key:value}}}
